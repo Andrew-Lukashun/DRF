@@ -1,2 +1,41 @@
-.idea/
+# Быстрые настройки Django
+*.sqlite3
+db.sqlite3
+/static/
+/media/
 .env
+*.log
+
+# Виртуальное окружение (самое важное для очистки)
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# IDE (PyCharm, VS Code) - то, что часто забывают
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Celery
+celerybeat-schedule*
+*.db
+
+# Сборка и дистрибутивы
+*.egg-info/
+dist/
+build/
+egg-dist/
+
+# Система
+.DS_Store
+Thumbs.db
