@@ -27,8 +27,8 @@ __pycache__/
 *$py.class
 
 # Celery
-celerybeat-schedule
-celerybeat-schedule.db
+celerybeat-schedule*
+*.db
 
 # Сборка и дистрибутивы
 *.egg-info/
